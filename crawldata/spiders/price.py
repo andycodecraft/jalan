@@ -13,7 +13,7 @@ class CrawlerSpider(scrapy.Spider):
         'content-type': 'text/html; charset=EUC-JP'
     }
     base_url = 'https://www.jalan.net/'
-    start_url = 'https://www.jalan.net/jalan/common/script/car_rental_master.js'
+    start_url = 'https://www.jalan.net/js/quick/jalan_qs.js'
     params = {
         'roomCount': 1,
         'adultNum': 1,
