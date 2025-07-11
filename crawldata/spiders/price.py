@@ -1,4 +1,4 @@
-import scrapy, re , json, requests, hashlib
+import scrapy, re , requests, hashlib
 from datetime import datetime
 from scrapy.selector import Selector
 from urllib.parse import urlencode, urlparse, urlunparse, parse_qs, urljoin
